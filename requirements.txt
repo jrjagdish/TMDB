@@ -1,0 +1,16 @@
+# Required Python packages for the TMDB CLI Tool
+
+# Load environment variables from a .env file
+python-dotenv==1.0.1  
+
+# Handle HTTP requests to interact with the TMDB API
+requests==2.32.3  
+
+# Command-line argument parsing
+argparse==1.4.0  
+
+# Dependencies required by requests
+urllib3==2.3.0  # Manages HTTP connections efficiently
+idna==3.10  # Handles internationalized domain names
+certifi==2025.1.31  # Provides SSL certificates for secure requests
+charset-normalizer==3.4.1  # Helps with character encoding detection
